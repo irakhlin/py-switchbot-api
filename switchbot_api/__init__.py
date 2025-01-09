@@ -98,6 +98,7 @@ class HumidifierCommands(Commands):
     """Humidifier commands."""
 
     SET_MODE = "setMode"  # parameter: auto, set to Auto Mode, 101, set atomization efficiency to 34%,102, set atomization efficiency to 67%, 103, set atomization efficiency to 100%
+    SET_CHILD_LOCK = "setChildLock"
 
 
 class TVCommands(Commands):
